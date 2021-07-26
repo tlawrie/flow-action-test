@@ -21,7 +21,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Boomerang Flow Run Workflow
-      uses: boomerang-io/flow.action@v0.5.1
+      uses: boomerang-io/flow.action@v0.5.2
       with:
         # The Boomerang Flow event URL and context
         url: https://ocp2.cloud.boomerangplatform.net/dev/flow/services/listener/event
